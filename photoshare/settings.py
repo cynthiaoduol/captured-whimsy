@@ -36,6 +36,11 @@ ALLOWED_HOSTS = [
                  'captured-whimsy-production.up.railway.app'
                  ]
 
+CSRF_TRUSTED_ORIGINS=[
+                 'https://captured-whimsy-production.up.railway.app',
+                 'captured-whimsy-production.up.railway.app'
+                 ]
+
 
 
 # Application definition
