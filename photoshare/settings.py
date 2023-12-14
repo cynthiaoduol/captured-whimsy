@@ -31,7 +31,10 @@ SECRET_KEY = 'm-un_db=x5c@_6f%%ngz=4_$x%jqohc71$*yg2=8_5%4p&hh#('
 DEBUG = True
 
 # ALLOWED_HOSTS = ['photoshare.vercel.app']
-ALLOWED_HOSTS = ['https://captured-whimsy-production.up.railway.app/']
+ALLOWED_HOSTS = [
+                 'https://captured-whimsy-production.up.railway.app',
+                 'captured-whimsy-production.up.railway.app'
+                 ]
 
 
 
